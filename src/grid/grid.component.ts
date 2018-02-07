@@ -22,7 +22,7 @@ let _assign = require('lodash/assign');
   ],
   template:
     '<div class="formio-grid">' +
-    '  <formio-alerts></formio-alerts>' +
+    '  <formio-alerts [alerts]="alerts"></formio-alerts>' +
     '  <table class="table table-condensed table-bordered table-striped table-hover">' +
     '    <thead>' +
     '      <tr>' +
